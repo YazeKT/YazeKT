@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="yazekt — Design experience. A new chapter in code." width="100%" />
+  <img src="assets/banner.svg" alt="YazeKT — Practical software, thoughtfully designed." width="100%" />
 </p>
 
 # Hi, I'm Kirsten Trimaley
