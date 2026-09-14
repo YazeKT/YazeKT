@@ -1,72 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
-  <title id="title">YazeKT</title>
-  <desc id="desc">YazeKT. Practical software, thoughtfully designed. An editorial banner in deep ink, teal, ivory, and coral.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">yazekt</title>
+  <desc id="desc">Design judgment. Agentic workflows. Software that ships. Midnight and teal identity banner.</desc>
   <defs>
-    <linearGradient id="background" x1="80" y1="24" x2="1134" y2="268" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#07111c"/>
-      <stop offset="0.58" stop-color="#0a1d28"/>
-      <stop offset="1" stop-color="#0c2a31"/>
-    </linearGradient>
-    <radialGradient id="light" cx="0" cy="0" r="1" gradientTransform="translate(946 122) rotate(160) scale(412 240)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#4dd7c0" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#4dd7c0" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="ribbon" x1="794" y1="45" x2="1147" y2="241" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#b9fff1"/>
-      <stop offset="0.48" stop-color="#61d8c5"/>
-      <stop offset="1" stop-color="#2a9f94"/>
-    </linearGradient>
-    <linearGradient id="metal" x1="1010" y1="30" x2="1071" y2="249" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#f3ead6"/>
-      <stop offset="0.17" stop-color="#7e8e91"/>
-      <stop offset="0.7" stop-color="#263a42"/>
-      <stop offset="1" stop-color="#0a151e"/>
-    </linearGradient>
-    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="8"/>
-    </filter>
-    <clipPath id="frame">
-      <rect width="1200" height="280" rx="22"/>
-    </clipPath>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1520"/><stop offset="1" stop-color="#102b32"/></linearGradient>
+    <linearGradient id="teal" x2="0" y2="1"><stop stop-color="#b1fff0"/><stop offset="1" stop-color="#39bda8"/></linearGradient>
   </defs>
-
-  <g clip-path="url(#frame)">
-    <rect width="1200" height="280" fill="url(#background)"/>
-    <rect width="1200" height="280" fill="url(#light)"/>
-    <path d="M-30 236C226 169 408 206 640 175" fill="none" stroke="#dff8f3" stroke-opacity="0.035" stroke-width="88"/>
-
-    <g fill="none" stroke-linecap="round">
-      <path d="M748 10C833 17 879 63 927 113C978 166 1024 196 1104 194C1155 193 1197 176 1232 151" stroke="#98e7d9" stroke-opacity="0.12" stroke-width="2"/>
-      <path d="M720 40C813 42 856 91 907 143C958 195 1019 227 1102 225C1159 224 1204 204 1238 178" stroke="#98e7d9" stroke-opacity="0.08" stroke-width="2"/>
-      <path d="M792 -20C867 -2 913 34 963 84C1011 132 1054 154 1124 153C1173 152 1207 136 1230 118" stroke="#f2ead8" stroke-opacity="0.08" stroke-width="1.5"/>
-
-      <path d="M773 38C836 46 872 79 910 119L978 190" stroke="#33b7a7" stroke-opacity="0.22" stroke-width="42" filter="url(#softGlow)"/>
-      <path d="M773 38C836 46 872 79 910 119L978 190" stroke="url(#ribbon)" stroke-width="24"/>
-      <path d="M773 38C836 46 872 79 910 119L978 190" stroke="#e8fff9" stroke-opacity="0.62" stroke-width="2"/>
-
-      <path d="M1182 42C1126 62 1082 96 1044 139L978 213" stroke="#33b7a7" stroke-opacity="0.2" stroke-width="42" filter="url(#softGlow)"/>
-      <path d="M1182 42C1126 62 1082 96 1044 139L978 213" stroke="url(#ribbon)" stroke-width="24"/>
-      <path d="M1182 42C1126 62 1082 96 1044 139L978 213" stroke="#e8fff9" stroke-opacity="0.58" stroke-width="2"/>
-    </g>
-
-    <g transform="rotate(17 1094 139)">
-      <rect x="1085" y="41" width="18" height="196" rx="9" fill="#030a10" stroke="#d6e2df" stroke-opacity="0.2"/>
-      <path d="M1088 54C1088 48 1092 44 1094 44C1097 44 1100 48 1100 54V217H1088V54Z" fill="url(#metal)"/>
-      <rect x="1084" y="93" width="20" height="12" rx="4" fill="#ec725d"/>
-      <path d="M1088 217H1100L1094 240Z" fill="#f1e6ce"/>
-    </g>
-
-    <circle cx="1136" cy="42" r="4" fill="#ec725d"/>
-    <circle cx="749" cy="36" r="3" fill="#d9fff7"/>
-    <rect x="1146" y="245" width="54" height="35" fill="#ec725d" fill-opacity="0.08"/>
-  </g>
-
-  <g font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
-    <rect x="66" y="55" width="46" height="4" rx="2" fill="#64d8c4"/>
-    <rect x="116" y="55" width="8" height="4" rx="2" fill="#ec725d"/>
-    <text x="64" y="144" font-size="82" font-weight="720" letter-spacing="-4" fill="#f4edde">Yaze<tspan fill="#72dfcc">KT</tspan></text>
-    <text x="69" y="190" font-size="23" font-weight="400" letter-spacing="0.1" fill="#c4d4d3">Practical software, thoughtfully designed.</text>
-    <path d="M69 226H477" stroke="#d9ece8" stroke-opacity="0.16"/>
-    <rect x="69" y="224" width="82" height="4" rx="2" fill="#64d8c4" fill-opacity="0.72"/>
-  </g>
+  <rect width="1200" height="260" rx="20" fill="url(#bg)"/>
+  <path d="M920 0V260M1000 0V260M1080 0V260M1160 0V260M860 50H1200M860 130H1200M860 210H1200" stroke="#8aebda" stroke-opacity=".07"/>
+  <rect x="54" y="45" width="38" height="4" rx="2" fill="#72e0ca"/>
+  <text x="54" y="127" font-family="Segoe UI,Arial,sans-serif" font-size="70" font-weight="700" letter-spacing="-3" fill="#f2f9f8">yazekt<tspan fill="#78e5d0">.</tspan></text>
+  <text x="57" y="172" font-family="Segoe UI,Arial,sans-serif" font-size="23" fill="#bed4d9">Design judgment. Agentic workflows. Software that ships.</text>
+  <text x="57" y="218" font-family="Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="3" fill="#78e5d0">DISCOVER  /  DIRECT  /  VERIFY  /  SHIP</text>
+  <circle cx="1010" cy="130" r="86" fill="#0d222b" stroke="#61cab5" stroke-opacity=".45"/>
+  <path d="M965 88L1010 133L1055 88M1010 133V177" fill="none" stroke="url(#teal)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="1092" cy="70" r="6" fill="#ed947d"/>
 </svg>
